@@ -78,15 +78,10 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 40px;
 }
 
 .menu-item {
   display: flex;
-  width: 800px;
-  height: 400px;
-}
-
-.menu-item > img {
-  object-fit: cover;
-  height: 200px;
+  max-width: 25rem;
 }
